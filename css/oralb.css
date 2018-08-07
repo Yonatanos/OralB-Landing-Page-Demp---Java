@@ -1,0 +1,109 @@
+*{
+  background-color: #deedf7
+}
+
+header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 53px;
+}
+
+nav {
+  float: right;
+}
+
+h2 {
+  color: #003171;
+  line-height: 1.4em;
+}
+p {
+  margin-bottom: 1.5em;
+}
+/* Define the main Navigation block */
+#nav-bar {
+  height: 50px;
+  line-height: 50px;
+}
+/* Remove bullets, margin and padding */
+#nav-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Define the block styling for the links */
+.nav-link {
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 16px  ;
+  color: #4B77Ca;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+/* This is optional, however if you want to display the active link differently apply a background to it */
+.nav-link:hover, .nav-link:active {
+  color: #003171;
+  font-size: 1.6em;
+}
+#header-img {
+  width: auto;
+  height: 50px;
+}
+
+iframe#video {
+  display: block;
+  margin: 100px auto 0 auto;
+}
+
+@media (max-width: 702px) {
+  iframe#video {
+    margin: 120px auto
+  }
+}
+
+@media (max-width: 553px) {
+  iframe#video {
+    margin: 150px auto
+  }
+}
+
+#form {
+  width: 30%;
+  margin: auto;
+}
+
+#body-main {
+  width: 75%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.slogan {
+  font-family: Arnoldboecklin;
+  font-style: italic;
+}
+
+.invisible {
+  visibility: hidden;
+}
+#contact-section {
+  margin: 0 auto 40px;
+}
+#contact-section h2 {
+  margin-bottom: 0;
+}
+
+@media (max-width: 790px) {
+  nav {
+  font-size: 0.7em;
+  }
+}
+
+/* @media (max-width: section) {
+ section h2 {
+   margin-top: 800px;
+  }
+} */
